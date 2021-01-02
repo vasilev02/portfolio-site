@@ -1,0 +1,137 @@
+.topnav {
+    background-color:  #6495ED ;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+  }
+
+  .topnav a:hover {
+    background-color: #fcfcfc;
+    color: black;
+  }
+
+
+
+ div{
+    display: block;
+    margin: 0 auto;
+    border: 0;
+  }
+
+  img{
+    margin-top: 5px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:240px;
+    height:340px;
+    border: 0;
+  }
+
+
+  button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-left: 660px;
+    cursor: pointer;
+    background-color:#FBC705;
+  }
+
+  button:hover{
+    color: #FBC705;
+    background-color:white;
+  }
+
+
+  ul li{
+    display: inline-block;
+  }
+ 
+
+  body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+  }
+  .box{
+    width: 400px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: center;
+    margin: auto auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: center;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color:  #FBC705;
+  }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.distance{
+  margin-top: 50px;
+}
+
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+
+
+
+
